@@ -3,12 +3,23 @@
  */
 public class Adventure {
 
-    public String userName;
+    private String userName;
 
-    public Adventure(String userName){
-//        this.userName = userName;
+    public String getDirection() {
+        return direction;
+    }
+
+    private String direction;
+    private String resultOfDirection;
+
+    public Adventure(String userName, String direction, String resultOfDirection){
+        this.userName = userName;
+        this.direction = direction;
+        this.resultOfDirection = resultOfDirection;
 
     }
+
+
 
 
 }
