@@ -25,6 +25,6 @@ public class Adventure {
 
 
     public String twoNewOptions() {
-        return null;
+        return "Do you want to eat the berries? Yes or No?";
     }
 }
