@@ -17,4 +17,12 @@ public class AdventureTest {
         Adventure testAdventure = new Adventure("Kate", "left", "ogre");
         assertEquals("left", testAdventure.getDirection());
     }
+
+    @Test
+    public void newAdventure_seeResult() throws Exception {
+        Adventure testAdventure = new Adventure("Kate", "left", "Ogre eats you and you die");
+            assertEquals("Ogre eats you and you die.", testAdventure.resultOfAction());
+
+    }
+
 }

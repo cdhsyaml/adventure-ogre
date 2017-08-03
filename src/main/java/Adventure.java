@@ -19,6 +19,10 @@ public class Adventure {
 
     }
 
+    public String resultOfAction() {
+        return "Test death.";
+    }
+
 
 
 
