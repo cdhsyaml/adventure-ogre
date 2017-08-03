@@ -12,8 +12,8 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 * _You can choose one of two options_
   * _input: Left, output: go Left_
-* _Based on your option, you see two new options _
-  * _input: Left, output: you see an ogre!_
+* _Based on your option, you see a result_
+  * _input: Right, output: do you want to go right or left!_
 * _Based on your option, you see two new options _
   * _input: Right, output: you see an treasure chest!_
 

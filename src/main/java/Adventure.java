@@ -20,7 +20,7 @@ public class Adventure {
     }
 
     public String resultOfAction() {
-        return "Test death.";
+        return "Ogre eats you and you die.";
     }
 
 
