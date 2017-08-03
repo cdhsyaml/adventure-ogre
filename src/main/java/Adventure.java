@@ -26,5 +26,17 @@ public class Adventure {
 
     public String twoNewOptions() {
         return "Do you want to eat the berries? Yes or No?";
+
     }
+
+    public boolean twoNewOptionsDoDie(String userInput) {
+
+        if (userInput.equals("Yes")){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
 }
