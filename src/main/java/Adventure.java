@@ -3,5 +3,12 @@
  */
 public class Adventure {
 
+    public String userName;
+
+    public Adventure(String userName){
+//        this.userName = userName;
+
+    }
+
 
 }
