@@ -14,8 +14,8 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
   * _input: Left, output: go Left_
 * _Based on your option, you see a result_
   * _input: Right, output: do you want to go right or left!_
-* _Based on your option, you see two new options _
-  * _input: Right, output: you see an treasure chest!_
+* _Based on your option, you also see two other options._
+  * _input: Left, output: "You see some berries! Do you want to eat them??"_
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 

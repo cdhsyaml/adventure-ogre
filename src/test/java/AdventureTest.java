@@ -24,5 +24,10 @@ public class AdventureTest {
             assertEquals("Ogre eats you and you die.", testAdventure.resultOfAction());
 
     }
+    @Test
+    public void newAdventure_seeResult_1() throws Exception{
+        Adventure testAdventure = new Adventure("Kate", "right", "Do you want to eat the berries? Yes or No?");
+        assertEquals("Do you want to eat the berries? Yes or No?", testAdventure.twoNewOptions());
+    }
 
 }

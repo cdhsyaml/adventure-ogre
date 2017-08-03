@@ -24,6 +24,7 @@ public class Adventure {
     }
 
 
-
-
+    public String twoNewOptions() {
+        return null;
+    }
 }
