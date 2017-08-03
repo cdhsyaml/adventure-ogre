@@ -33,7 +33,7 @@ public class AdventureTest {
     @Test
     public void newAdventure_seeResult_2() throws Exception{
         Adventure testAdventure = new Adventure("Kate", "right", "Do you want to eat the berries? Yes or No?");
-        assertEquals(false, testAdventure.twoNewOptionsDoDie("Yes"));
+        assertEquals(true, testAdventure.twoNewOptionsDoDie("Yes"));
     }
 
 }
